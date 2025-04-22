@@ -6,23 +6,42 @@
 
 body {
     background-color: #f4f4f4;
+    
 }
 
 #tarjeta {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #2c3e50;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 100px;
     width: 600px;
     background-color: #ffffff;
     padding: 40px;
+    box-shadow: 0 0 12px #2c3e50;
+    border-radius: 20px;
 }
 .contenido {
     text-align: center;
 }
 
 img {
-    width: 300px;
+    width: 200px;
     border-radius: 400px;
+}
+div h1 { 
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+div h2 { 
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.contenido p { 
+    margin-top: 10px;
 }
 
 table,th,td {
@@ -39,7 +58,7 @@ th {
     background-color: #27ae60;
     color: white;
 }
-p span {
+.contenido p span {
     font-style: italic;
 }
 
