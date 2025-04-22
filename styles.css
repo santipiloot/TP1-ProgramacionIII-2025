@@ -27,6 +27,7 @@ body {
 img {
     width: 200px;
     border-radius: 400px;
+    box-shadow: 0 0 12px 2px #2c3e50;
 }
 div h1 { 
     text-transform: uppercase;
@@ -64,4 +65,8 @@ th {
 
 a { 
     color: #27ae60;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
