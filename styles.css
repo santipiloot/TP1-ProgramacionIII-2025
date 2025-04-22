@@ -1,0 +1,25 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #383838;
+}
+
+#tarjeta {
+    margin: auto;
+    margin-top: 300px;
+    width: 600px;
+    background-color: #666666;
+    padding: 40px;
+}
+.contenido {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 400px;
+}
