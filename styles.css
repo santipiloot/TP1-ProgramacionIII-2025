@@ -5,14 +5,15 @@
 }
 
 body {
-    background-color: #383838;
+    background-color: #f4f4f4;
 }
 
 #tarjeta {
+    color: #2c3e50;
     margin: auto;
     margin-top: 300px;
     width: 600px;
-    background-color: #666666;
+    background-color: #ffffff;
     padding: 40px;
 }
 .contenido {
@@ -27,10 +28,21 @@ img {
 table,th,td {
     text-align: center;
     border-collapse: collapse;
-    color: white;
+    color: #2c3e50;
     width: 400px;
     height: 100px;
     margin: auto;
     margin-top: 200px;
-    border: 3px solid white;
+    border: 3px solid #ddd;
+}
+th { 
+    background-color: #27ae60;
+    color: white;
+}
+p span {
+    font-style: italic;
+}
+
+a { 
+    color: #27ae60;
 }
