@@ -44,21 +44,26 @@ div h2 {
 .contenido p { 
     margin-top: 10px;
 }
-
-table,th,td {
-    text-align: center;
+table { 
     border-collapse: collapse;
-    color: #2c3e50;
+    border: 2px solid #ddd;
     width: 400px;
-    height: 100px;
     margin: auto;
-    margin-top: 200px;
-    border: 3px solid #ddd;
+    margin-top: 100px;
 }
-th { 
+th, td { 
+    border: 2px solid #ddd;
+    color: #2c3e50;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100px;
+    text-align: center;
+}
+thead, th { 
     background-color: #27ae60;
     color: white;
+    font-size: 20px;
 }
+
 .contenido p span {
     font-style: italic;
 }
