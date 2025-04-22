@@ -23,3 +23,14 @@ img {
     width: 300px;
     border-radius: 400px;
 }
+
+table,th,td {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+    border: 3px solid white;
+}
