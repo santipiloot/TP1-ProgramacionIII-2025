@@ -19,6 +19,7 @@ body {
     padding: 40px;
     box-shadow: 0 0 12px #2c3e50;
     border-radius: 20px;
+    max-width: 90%;
 }
 .contenido {
     text-align: center;
@@ -51,6 +52,7 @@ table {
     border-collapse: collapse;
     border: 2px solid #ddd;
     width: 400px;
+    max-width: 90%;
     margin: auto;
     margin-top: 100px;
 }
